@@ -14,8 +14,8 @@ class Badge extends React.Component {
           <h1> Ever<br /> Sorto</h1>
         </div>
         <div className="Badge__section-info">
-          <p>FullStack developer</p>
-          <p>#Panaderia Sorto</p>
+          <h3>FullStack developer</h3>
+          <div>#Panaderia Sorto</div>
         </div>
 
         <div className="Badge__footer">
