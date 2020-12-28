@@ -12,6 +12,7 @@ con <> elemento
 props => ????
 gravatar => 
 
-
+className => En React para colocar clases al html se utilisa className.
+Se puede instalar bootrap con npm 
 
 
