@@ -6,4 +6,4 @@ import './global.css'
 const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Badge/>, container);
+ReactDOM.render(<Badge firstName="Ever" lastName="Sorto" aspiration="FullstackDevelop"/>, container);
