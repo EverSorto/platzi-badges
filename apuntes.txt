@@ -1,0 +1,17 @@
+git stash       => guardar cambios sin que esten finalizados save mensaje 
+git stash list  => Lista de elementos guardados 
+git stash apply => ultimo stash guardado 
+git stash drop  => borrar el stash 
+git  stash pop  => saca el ultimo 
+git branch nombreRama => llave-commit
+
+todos los elementos reqiren un render por lomenos 
+
+sin <> componente 
+con <> elemento
+props => ????
+gravatar => 
+
+
+
+
