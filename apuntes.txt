@@ -16,5 +16,6 @@ className => En React para colocar clases al html se utilisa className.
 Se puede instalar bootrap con npm 
 
 props => investigar mas sobre los props 
+las paginas en react sigen siendo componentes.
 
 
