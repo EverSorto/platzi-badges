@@ -12,6 +12,7 @@ handleClick = (e)=>{
 
 handleSubmit = (e)=>{
   e.preventDefault();
+  console.log("Ejecutado desde el form como onsubmit")
 } 
 
   render() {
@@ -21,7 +22,7 @@ handleSubmit = (e)=>{
         <form onSubmit={this.handleSubmit}>
           <label>First Name</label>
           <input onChange={this.handleChange} class="form-control" type="text" name="firstName" />
-          <button type="button" onClick={this.handleClick} className="btn btn-primary">Save</button>
+          <button onClick={this.handleClick} className="btn btn-primary">Save</button>
         </form>
       </div>
     );
