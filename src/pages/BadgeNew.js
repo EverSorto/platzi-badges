@@ -4,6 +4,7 @@ import "./styles/BadgeNew.css";
 import Navbar from "../components/Navbar";
 import header from "../images/badge-header.svg";
 import Badge from '../components/Badge'
+import BadgeForm from "../components/BadgesForm"
 class BadgeNew extends React.Component {
   render() {
     return (
@@ -22,10 +23,14 @@ class BadgeNew extends React.Component {
                 inspiraion="fullStack developer"
               />
             </div>
+            <div className="col-6">
+              <BadgeForm/>
+            </div>
           </div>
         </div>
       </div>
     );
   }
 }
+
 export default BadgeNew;
